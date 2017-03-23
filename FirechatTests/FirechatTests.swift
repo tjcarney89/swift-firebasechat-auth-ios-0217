@@ -7,7 +7,6 @@
 //
 
 import XCTest
-import Pods_Firechat
 
 @testable import Firechat
 
@@ -37,6 +36,7 @@ class FirechatTests: XCTestCase {
     func testSignUp() {
         let exp = expectation(description: "signUp")
         let email = randomEmail(length: 8) + "@example.com"
+        
         FirebaseManager.signUp(email: email, password: "flatiron") { (user, success) in
             XCTAssertTrue(success, "Login Success")
             exp.fulfill()
