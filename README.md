@@ -3,8 +3,11 @@
 
 ### Objectives
 
-The objective of this lab is to help you figure out how to implement user login, signup and signout in your application.
+The objective of this lab is to help you figure out how to implement the folling:
 
+* user login
+* user registration 
+* sign out
 
 You are to use create a FirebaseManager class and complete your methods in this class. One of he necessary methods has been included for you but needs to be implemented.
 
