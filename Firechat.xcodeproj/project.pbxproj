@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		470CE5ADE25B1904D7967CFC /* Pods_FirechatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 857552B9A224E3FB26F8D675 /* Pods_FirechatTests.framework */; };
+		8F4974901E8403D7009F84A1 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F49748F1E8403D7009F84A1 /* FirebaseManager.swift */; };
+		8F4974921E840A6F009F84A1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4974911E840A6F009F84A1 /* ProfileViewController.swift */; };
 		8F8AEB7B1E81659900D23591 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8AEB7A1E81659900D23591 /* AppDelegate.swift */; };
 		8F8AEB7D1E81659900D23591 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8AEB7C1E81659900D23591 /* ViewController.swift */; };
 		8F8AEB801E81659900D23591 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F8AEB7E1E81659900D23591 /* Main.storyboard */; };
 		8F8AEB821E81659900D23591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F8AEB811E81659900D23591 /* Assets.xcassets */; };
 		8F8AEB851E81659900D23591 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F8AEB831E81659900D23591 /* LaunchScreen.storyboard */; };
 		8F8AEB901E81659900D23591 /* FirechatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8AEB8F1E81659900D23591 /* FirechatTests.swift */; };
+		8F8AEB9B1E8169D600D23591 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F8AEB9A1E8169D600D23591 /* GoogleService-Info.plist */; };
+		B623F155F6A275394B8918EA /* Pods_Firechat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02F1FE4214E3FF6594D69038 /* Pods_Firechat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +31,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02F1FE4214E3FF6594D69038 /* Pods_Firechat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firechat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B137D3678362346FA782BC3 /* Pods-FirechatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirechatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirechatTests/Pods-FirechatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		857552B9A224E3FB26F8D675 /* Pods_FirechatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirechatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F49748F1E8403D7009F84A1 /* FirebaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		8F4974911E840A6F009F84A1 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		8F8AEB771E81659900D23591 /* Firechat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Firechat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F8AEB7A1E81659900D23591 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F8AEB7C1E81659900D23591 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +46,10 @@
 		8F8AEB8B1E81659900D23591 /* FirechatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirechatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F8AEB8F1E81659900D23591 /* FirechatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirechatTests.swift; sourceTree = "<group>"; };
 		8F8AEB911E81659900D23591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F8AEB9A1E8169D600D23591 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B7BABBB026A6BFE9505448B2 /* Pods-Firechat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firechat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Firechat/Pods-Firechat.release.xcconfig"; sourceTree = "<group>"; };
+		E7E5ECD8498C8BCD36D27CBC /* Pods-FirechatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirechatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirechatTests/Pods-FirechatTests.release.xcconfig"; sourceTree = "<group>"; };
+		F8F56BD0AAACAA542FC83054 /* Pods-Firechat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firechat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Firechat/Pods-Firechat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B623F155F6A275394B8918EA /* Pods_Firechat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +65,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				470CE5ADE25B1904D7967CFC /* Pods_FirechatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37B8ACB4635E968A2E913181 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8F56BD0AAACAA542FC83054 /* Pods-Firechat.debug.xcconfig */,
+				B7BABBB026A6BFE9505448B2 /* Pods-Firechat.release.xcconfig */,
+				6B137D3678362346FA782BC3 /* Pods-FirechatTests.debug.xcconfig */,
+				E7E5ECD8498C8BCD36D27CBC /* Pods-FirechatTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6C704733A68F8BCDDFDAAECE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02F1FE4214E3FF6594D69038 /* Pods_Firechat.framework */,
+				857552B9A224E3FB26F8D675 /* Pods_FirechatTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8F8AEB6E1E81659900D23591 = {
 			isa = PBXGroup;
 			children = (
 				8F8AEB791E81659900D23591 /* Firechat */,
 				8F8AEB8E1E81659900D23591 /* FirechatTests */,
 				8F8AEB781E81659900D23591 /* Products */,
+				37B8ACB4635E968A2E913181 /* Pods */,
+				6C704733A68F8BCDDFDAAECE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,8 +116,11 @@
 			isa = PBXGroup;
 			children = (
 				8F8AEB7A1E81659900D23591 /* AppDelegate.swift */,
+				8F8AEB9A1E8169D600D23591 /* GoogleService-Info.plist */,
 				8F8AEB7C1E81659900D23591 /* ViewController.swift */,
+				8F49748F1E8403D7009F84A1 /* FirebaseManager.swift */,
 				8F8AEB7E1E81659900D23591 /* Main.storyboard */,
+				8F4974911E840A6F009F84A1 /* ProfileViewController.swift */,
 				8F8AEB811E81659900D23591 /* Assets.xcassets */,
 				8F8AEB831E81659900D23591 /* LaunchScreen.storyboard */,
 				8F8AEB861E81659900D23591 /* Info.plist */,
@@ -103,9 +144,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F8AEB941E81659900D23591 /* Build configuration list for PBXNativeTarget "Firechat" */;
 			buildPhases = (
+				0D725203BABD4026139E0426 /* [CP] Check Pods Manifest.lock */,
 				8F8AEB731E81659900D23591 /* Sources */,
 				8F8AEB741E81659900D23591 /* Frameworks */,
 				8F8AEB751E81659900D23591 /* Resources */,
+				E8B2B27912C2FA2874B53C36 /* [CP] Embed Pods Frameworks */,
+				C5F56EE2A0A013C105100B78 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F8AEB971E81659900D23591 /* Build configuration list for PBXNativeTarget "FirechatTests" */;
 			buildPhases = (
+				1AB0DA2E7C37105C098F80E2 /* [CP] Check Pods Manifest.lock */,
 				8F8AEB871E81659900D23591 /* Sources */,
 				8F8AEB881E81659900D23591 /* Frameworks */,
 				8F8AEB891E81659900D23591 /* Resources */,
+				99EC13E234593A8AF8B17D65 /* [CP] Embed Pods Frameworks */,
+				23EF3F06F2651E4811BE816E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F8AEB9B1E8169D600D23591 /* GoogleService-Info.plist in Resources */,
 				8F8AEB851E81659900D23591 /* LaunchScreen.storyboard in Resources */,
 				8F8AEB821E81659900D23591 /* Assets.xcassets in Resources */,
 				8F8AEB801E81659900D23591 /* Main.storyboard in Resources */,
@@ -196,12 +244,107 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D725203BABD4026139E0426 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1AB0DA2E7C37105C098F80E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		23EF3F06F2651E4811BE816E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirechatTests/Pods-FirechatTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99EC13E234593A8AF8B17D65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirechatTests/Pods-FirechatTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5F56EE2A0A013C105100B78 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Firechat/Pods-Firechat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8B2B27912C2FA2874B53C36 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Firechat/Pods-Firechat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8F8AEB731E81659900D23591 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F4974901E8403D7009F84A1 /* FirebaseManager.swift in Sources */,
 				8F8AEB7D1E81659900D23591 /* ViewController.swift in Sources */,
+				8F4974921E840A6F009F84A1 /* ProfileViewController.swift in Sources */,
 				8F8AEB7B1E81659900D23591 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,6 +480,7 @@
 		};
 		8F8AEB951E81659900D23591 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8F56BD0AAACAA542FC83054 /* Pods-Firechat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WNAGBXF4G9;
@@ -350,6 +494,7 @@
 		};
 		8F8AEB961E81659900D23591 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7BABBB026A6BFE9505448B2 /* Pods-Firechat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WNAGBXF4G9;
@@ -363,6 +508,7 @@
 		};
 		8F8AEB981E81659900D23591 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B137D3678362346FA782BC3 /* Pods-FirechatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -378,6 +524,7 @@
 		};
 		8F8AEB991E81659900D23591 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7E5ECD8498C8BCD36D27CBC /* Pods-FirechatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -410,6 +557,7 @@
 				8F8AEB961E81659900D23591 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F8AEB971E81659900D23591 /* Build configuration list for PBXNativeTarget "FirechatTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +566,7 @@
 				8F8AEB991E81659900D23591 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
