@@ -5,7 +5,7 @@
 def common
   pod 'Firebase'
   pod 'FirebaseAuth'
-
+  pod 'Firebase/Database'
 end
 
 

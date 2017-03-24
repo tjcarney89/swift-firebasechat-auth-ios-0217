@@ -16,6 +16,7 @@
 		8F8AEB901E81659900D23591 /* FirechatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8AEB8F1E81659900D23591 /* FirechatTests.swift */; };
 		D2F6747B4DF1357DEBA92EEA /* Pods_FirechatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0022D5A8079A1E576FCE9E95 /* Pods_FirechatTests.framework */; };
 		E7FE12BB39FAEBABF2152635 /* Pods_Firechat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 444C146BA3571310740BDA17 /* Pods_Firechat.framework */; };
+		F011FD281E84A5E700B919EE /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F011FD271E84A5E700B919EE /* SignUpViewController.swift */; };
 		F055F5381E843D45003B69CD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F055F5371E843D45003B69CD /* GoogleService-Info.plist */; };
 		F055F53A1E8450EE003B69CD /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F055F5391E8450EE003B69CD /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
@@ -48,6 +49,7 @@
 		8F8AEB911E81659900D23591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A57BBBB862529B09AA122180 /* Pods-Firechat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firechat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Firechat/Pods-Firechat.debug.xcconfig"; sourceTree = "<group>"; };
 		A741F8FB3A7B34888CBCF480 /* Pods-Firechat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firechat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Firechat/Pods-Firechat.release.xcconfig"; sourceTree = "<group>"; };
+		F011FD271E84A5E700B919EE /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		F055F5371E843D45003B69CD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F055F5391E8450EE003B69CD /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,6 +112,7 @@
 				8F49748F1E8403D7009F84A1 /* FirebaseManager.swift */,
 				8F8AEB7C1E81659900D23591 /* ViewController.swift */,
 				F055F5391E8450EE003B69CD /* WelcomeViewController.swift */,
+				F011FD271E84A5E700B919EE /* SignUpViewController.swift */,
 				8F8AEB7E1E81659900D23591 /* Main.storyboard */,
 				8F8AEB811E81659900D23591 /* Assets.xcassets */,
 				8F8AEB831E81659900D23591 /* LaunchScreen.storyboard */,
@@ -345,6 +348,7 @@
 				F055F53A1E8450EE003B69CD /* WelcomeViewController.swift in Sources */,
 				8F8AEB7D1E81659900D23591 /* ViewController.swift in Sources */,
 				8F8AEB7B1E81659900D23591 /* AppDelegate.swift in Sources */,
+				F011FD281E84A5E700B919EE /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

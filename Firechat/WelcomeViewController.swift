@@ -10,6 +10,11 @@ import UIKit
 import Firebase
 
 class WelcomeViewController: UIViewController {
+    
+
+    
+    var userEmail: String?
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,7 +32,7 @@ class WelcomeViewController: UIViewController {
             print("No User To Log Out")
         }
     }
-        
+    
 
     /*
     // MARK: - Navigation

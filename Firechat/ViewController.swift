@@ -8,6 +8,7 @@
 
 import UIKit
 import FirebaseAuth
+import FirebaseDatabase
 
 
 class ViewController: UIViewController {
@@ -39,26 +40,29 @@ class ViewController: UIViewController {
     }
     
     @IBAction func signUpTapped(_ sender: Any) {
-        let myAlert = UIAlertController(title: "Sign Up", message: "Please Enter Username and Password", preferredStyle: .alert)
-        myAlert.addTextField()
-        myAlert.addTextField()
-        let newEmailTextField = myAlert.textFields?[0]
-        let newpasswordTextField = myAlert.textFields?[1]
-        newEmailTextField?.placeholder = "Email"
-        newpasswordTextField?.placeholder = "Password"
-        let submitAction = UIAlertAction(title: "Submit", style: .default) { (action) in
-            if let email = newEmailTextField?.text, let password = newpasswordTextField?.text {
-                FirebaseManager.signUp(email: email, password: password, completion: { (user, success) in
-                    print("\(user?.email) has signed up")
-                })
-
+       
+//            if let email = newEmailTextField?.text, let password = newpasswordTextField?.text {
+//                FirebaseManager.signUp(email: email, password: password, completion: { (user, success) in
+//                    if let unwrappedEmail = user?.email {
+//                        print(unwrappedEmail)
+//                        FIRDatabase.database().reference().child("User").child("Account").setValue(unwrappedEmail)
+//                    }
+//                    print("\(user?.email) has signed up")
+//                })
+//                
+//                
+//
+//            }
+       
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "loginSegue" {
+            if let destVC = segue.destination as? WelcomeViewController, let email = emailTextField.text {
+                destVC.userEmail = email
             }
         }
-        let cancelAction = UIAlertAction(title: "Cancel", style: .destructive, handler: nil)
-        myAlert.addAction(submitAction)
-        myAlert.addAction(cancelAction)
-        self.present(myAlert, animated: true)
-        
     }
    
     @IBAction func logoutTapped(_ sender: Any) {

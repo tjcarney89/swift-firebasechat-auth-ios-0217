@@ -8,10 +8,14 @@
 
 import Foundation
 import FirebaseAuth
+import FirebaseDatabase
 
 
 
 class FirebaseManager {
+    
+    var ref: FIRDatabaseReference! = FIRDatabase.database().reference()
+
     
     class func login(email: String, password:String, completion: @escaping (FIRUser?, Bool) -> ()) {
         FIRAuth.auth()?.signIn(withEmail: email, password: password, completion: { (user, error) in
@@ -47,6 +51,13 @@ class FirebaseManager {
         FIRAuth.auth()?.sendPasswordReset(withEmail: email, completion: { (error) in
             print(error)
         })
+    }
+    
+    class func addUser(email: String, username: String) {
+        FIRDatabase.database().reference().child("User").child(username).child("Email").setValue(email)
+        FIRDatabase.database().reference().child("User").child(username).child("Username").setValue(username)
+
+        
     }
     
 }
